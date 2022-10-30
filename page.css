@@ -1,108 +1,114 @@
-*{
-    margin: 0px;
+* {
+  margin: 0px;
 }
 
 .container {
-    width: 100%;
-    height: 100vh;
-    background-image: url(goapic.jpg);
-    background-size: cover;
-    background-position:center ;
-    box-sizing: border-box;
-    padding-left: 8%;
-    padding-right: 8%;
+  width: 100%;
+  height: 100vh;
+  background-image: url(goapic.jpg);
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  padding-left: 8%;
+  padding-right: 8%;
 }
-.vect{
-    height: 50px;
-    width: 50px;
-    cursor: pointer;
+.vect {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
 }
 
-.navbar{
-display: flex;
-    height: 10%;
-align-items: center;
+.navbar {
+  display: flex;
+  height: 10%;
+  align-items: center;
 }
-nav{
+nav {
   /*  display: flex;*/
-    text-align:right; 
-    flex: auto;
-
+  text-align: right;
+  flex: auto;
 }
 
-nav ul li { list-style: none;
-    display : inline-block;
-margin-left: 60px;
-
-
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
 }
 nav ul li a {
-    text-decoration: none; 
-    color : white;
-    font-size: large;
+  text-decoration: none;
+  color: white;
+  font-size: large;
 }
 
-button{
-    width: 80px;
-    background: whitesmoke;font-size: 10px;
-    border: 0;
-    outline: none ;
-    border-radius: 100px;
-    padding: 10px;
-    margin-top: 30px;
+button {
+  width: 80px;
+  background: whitesmoke;
+  font-size: 13px;
+  border: 1px solid whitesmoke;
+  outline: none;
+  border-radius: 100px;
+  padding: 10px;
+  margin-top: 30px;
+  transition: all 0.3s ease;
+}
+button:hover {
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
 }
 
-
-.roww{
-    
-    display: flex;
-    height: 80%;
-    align-items: center;
+.roww {
+  display: flex;
+  height: 80%;
+  align-items: center;
 }
-.col{
-    flex-basis: 50%;
+.col {
+  flex-basis: 50%;
 }
-h1{ 
-    font-size: 100px;
-    color: aliceblue;
+h1 {
+  font-size: 100px;
+  color: aliceblue;
 }
-p{
-    color: aliceblue;
-    font-size: 10px;
-    height: 10px;
+p {
+  color: aliceblue;
+  font-size: 15px;
+  height: 10px;
 }
 
-.card{
-    width: 200px;
-    height: 230px;
-    display: inline-block;
-    border-radius: 10px;
-    padding: 15px 25px;
-    box-sizing: border-box;
-    cursor: pointer;
-    margin: 10px 15px;    
-    background-position: center;
-    background-size: cover;    
-    transition: all 0.5s;
+.card {
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.5s;
 }
 
-.c1{
-    background-image: url(https://i.pinimg.com/736x/47/2b/61/472b61d49bb2c847bb7e0665497af47e.jpg);
+.c1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url(https://i.pinimg.com/736x/47/2b/61/472b61d49bb2c847bb7e0665497af47e.jpg);
 }
-    .c2{
-        background-image: url(https://live.staticflickr.com/2893/12440267623_d402917d89_b.jpg);  
-     }
-      .c3{
-            background-image: url(https://th.bing.com/th/id/R.dcb3c19e12c532a21a40abe248e1f7d5?rik=NWxI82ay0NczMQ&riu=http%3a%2f%2f2.bp.blogspot.com%2f-fb4kHr1zrJI%2fU8Icmltt8jI%2fAAAAAAAAB4s%2fdYDRD5BCzeA%2fs1600%2fsand.jpg&ehk=J3a3BtnkEqQBeQwWn6ci9CtwGHCWK90d6LKDe1ow9E8%3d&risl=&pid=ImgRaw&r=0);
-        }
-        .c4{
-            background-image: url(https://lh5.googleusercontent.com/-nbmeAt3HTx8/VOLjRrqpLCI/AAAAAAAAG6w/yJjWHdBtXCE/w728-h1093-no/IMG_5424-copyx.jpgs);
-        }
-        
-        .card:hover{
-            transform: scale(1.1);
-        }
-        h5{
-            color: white;
-        }
-       
+.c2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url(https://live.staticflickr.com/2893/12440267623_d402917d89_b.jpg);
+}
+.c3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url(https://th.bing.com/th/id/R.dcb3c19e12c532a21a40abe248e1f7d5?rik=NWxI82ay0NczMQ&riu=http%3a%2f%2f2.bp.blogspot.com%2f-fb4kHr1zrJI%2fU8Icmltt8jI%2fAAAAAAAAB4s%2fdYDRD5BCzeA%2fs1600%2fsand.jpg&ehk=J3a3BtnkEqQBeQwWn6ci9CtwGHCWK90d6LKDe1ow9E8%3d&risl=&pid=ImgRaw&r=0);
+}
+.c4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url(https://lh5.googleusercontent.com/-nbmeAt3HTx8/VOLjRrqpLCI/AAAAAAAAG6w/yJjWHdBtXCE/w728-h1093-no/IMG_5424-copyx.jpgs);
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+h5 {
+  color: white;
+}
